@@ -1,0 +1,54 @@
+
+<html>
+<head>
+<title> Login Page </title>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body background="lambo1.jpg" text="black">
+
+<div class="menu">
+
+<div class="logo">
+
+<h1>Buy Our Cars</h1>
+
+</div>
+
+<div class="links">
+
+<a href="http://cgi.cs.mcgill.ca/~lstinc/CarDealership/#">Home</a>
+<a href="">Catalogue</a>
+<a href="http://cgi.cs.mcgill.ca/~rkucer/">Login</a>
+
+</div>
+
+</div>
+
+<div style="position: relative">
+
+<p style="position: fixed; bottom: 0; width:100%; text-align: center">Please enter your username and password to login. If you do not have an account, go to the registration page to create one.</p>
+
+<form  action="login.c" autocomplete="on"> 
+     <h1 style="position: fixed; top: 150; width:100%; text-align: left">Log in</h1> 
+     <p style="position: fixed; top: 200; width:100%; text-align: left"> 
+          <label for="username" class="uname" data-icon="u" >Username:</label>
+          <input id="username" name="username" required="required" type="text" placeholder="Username"/>
+     </p>
+     <p style="position: fixed; top: 230; width:100%; text-align: left"> 
+          <label for="password" class="youpasswd" data-icon="p">Password:</label>
+          <input id="password" name="password" required="required" type="password" placeholder="Password" /> 
+     </p>
+     <p class="login button"; style="position: fixed; top: 270; width:100%; text-align: left"> 
+          <input type="submit" value="Login" /> 
+     </p>
+</form>
+<p style="position: fixed; top: 300; width:100%; text-align: left">Don't have an account? <a href="">Register Here</a>
+</p>
+
+</div>
+
+</body>
+</html>
